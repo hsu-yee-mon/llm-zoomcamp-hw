@@ -76,7 +76,7 @@ class RAGBase:
         response = self.llm(prompt)
 
         answer = response.output_text.strip()
-        input_tokens = response.usage.input_tokens
+        input_tokens = response.usage.input_token   s
 
         return {
             'answer': answer,
