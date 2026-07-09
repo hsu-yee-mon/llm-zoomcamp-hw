@@ -67,10 +67,20 @@ class RAGBase:
             input=input_messages
         )
 
-        return response.output_text
+        return response
 
     def rag(self, query):
         search_results = self.search(query)
         prompt = self.build_prompt(query, search_results)
-        answer = self.llm(prompt)
-        return answer
+
+        response = self.llm(prompt)
+
+        answer = response.output_text.strip()
+        input_tokens = response.usage.input_tokens
+
+        return {
+            'answer': answer,
+            'input_tokens': input_tokens,
+            'search_results': search_results
+            }
+
