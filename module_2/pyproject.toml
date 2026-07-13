@@ -1,23 +1,25 @@
 [project]
-name = "llm-zoomcamp-hw"
+name = "module-2"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "gitsource>=0.0.5",
     "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
     "minsearch>=0.0.11",
     "numpy>=2.2.6",
     "openai>=2.38.0",
     "pandas>=2.3.3",
+    "psycopg[binary]>=3.3.4",
     "python-dotenv>=1.2.2",
     "requests>=2.34.2",
-    "toyaikit>=0.0.11",
+    "sentence-transformers>=5.6.0",
+    "sqlitesearch>=0.3.0",
 ]
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
 
-[tool.uv.workspace]
-members = [
-    "module_2",
-]
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"

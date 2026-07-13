@@ -12,3 +12,4 @@ __pycache__/
 # Downloaded model cache
 module 1/llm-zoomcamp-onnx/models/
 
+models/ 
