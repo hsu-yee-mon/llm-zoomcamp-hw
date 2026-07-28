@@ -13,3 +13,4 @@ __pycache__/
 module 1/llm-zoomcamp-onnx/models/
 
 models/ 
+*.csv
