@@ -1,0 +1,5 @@
+Monitor an agent. Apply the same instrumentation to an agent from the agents module, capturing each tool call the way we captured LLM calls.
+Generate synthetic data and watch the Grafana dashboard fill out, as in the synthetic data lesson.
+Move everything to Docker Compose so the whole stack starts with one command.
+
+- to re-read the code flows and docker files
