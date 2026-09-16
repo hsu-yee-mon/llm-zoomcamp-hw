@@ -528,3 +528,5 @@ This repository was created while following **DataTalksClub's LLM Zoomcamp 2026*
 **Course:** [DataTalksClub LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp)
 
 **My homework repository:** [hsu-yee-mon/llm-zoomcamp-hw](https://github.com/hsu-yee-mon/llm-zoomcamp-hw)
+
+**My capstone project:** [hsu-yee-mon/learning-pathway-rag](https://github.com/hsu-yee-mon/learning-pathway-rag/)
